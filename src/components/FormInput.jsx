@@ -11,6 +11,7 @@ const FormInput = ({ label, name, type, defaultValue }) => {
         className='input input-bordered '
       />
     </div>
-  );
-};
-export default FormInput;
+  )
+}
+
+export default FormInput
