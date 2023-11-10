@@ -1215,8 +1215,8 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Landing />,
-        loader: landingLoader,
         errorElement: <ErrorElement />,
+        loader: landingLoader,
       },
     ],
   },
