@@ -34,7 +34,7 @@ import { loader as landingLoader } from './pages/Landing';
         element: <Products />,
       },
       {
-        path: '/product/:id',
+        path: '/products/:id',
         element: <SingleProduct />,
       },
       {
